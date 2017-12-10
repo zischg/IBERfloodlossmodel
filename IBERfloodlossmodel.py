@@ -26,7 +26,7 @@ tempdir="/temp"
 outputdelimiter="\t"
 flowdepthstatmethod="MEAN"#"MAX" or "MEAN"
 searchradius=0.5
-gebshp=r"D:\DATEN\MobiLab\Projekte\ReSim_HEIMBERG\GIS\buildings.shp" #shapefile of buildings with the obligatory column names: 
+gebshp=r"D:\DATEN\MobiLab\Projekte\ReSim_HEIMBERG\GIS\buildings.shp" #shapefile of buildings with the obligatory column names:"Orig_FID" .. a unique ID (integer) of each building, "Wert" .. "the monetary value of the building (DOUBLE), "AnzPers" .. the number of residents in the building (integer) 
 floodplainname="floodplainA"
 riverpolygonshapefile="\home\riverpolygonshapefile.shp" #a shapefile containing the "in-river" feature, i.e. the rivered between left and right dam
 
